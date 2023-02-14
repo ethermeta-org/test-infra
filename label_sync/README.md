@@ -80,3 +80,10 @@ the [prow updateconfig plugin](/prow/plugins/updateconfig).
 To update the `labels.yaml` file, make the desired changes to `labels.yaml` and
 run `make update-labels` from root of this repo. Then open a pull request with the resulting
 `labels.yaml` and `labels.md` files.
+
+
+## example
+
+```shell
+label_sync --config ./labels.yaml --orgs ethermeta-org --token PAT_TOKEN_FILE
+```
