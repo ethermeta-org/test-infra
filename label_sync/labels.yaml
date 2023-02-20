@@ -28,6 +28,9 @@ default:
     - color: "0E8A16"
       name: kind/test
       description: 测试相关类型
+    - color: "f9d0c4"
+      name: kind/lint
+      description: 静态代码审查或lint问题
     - color: "3D25B9"
       name: project/cap_core
       description: cap_core项目相关
